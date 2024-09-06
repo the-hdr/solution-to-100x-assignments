@@ -1,0 +1,25 @@
+.grand-parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+
+    width: 80vw;
+}
+
+.left
+{
+    background-color: red;
+}
+
+.right
+{
+    background-color: blue;
+}
