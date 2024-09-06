@@ -10,5 +10,25 @@ There is no automated test for this one, this is more for you to understand time
 
 function calculateTime (n)
 {
-    
+    let s = 0;
+    const startTime = new Date();
+    for (let i = 1; i <= n; ++i)
+    {
+        s += i;
+    }
+    const endTime = new Date();
+
+    const totalTimeTaken = endTime - startTime;
+    return totalTimeTaken;
 }
+
+console.log (calculateTime (1));
+console.log (calculateTime (10));
+console.log (calculateTime (100));
+console.log (calculateTime (1000));
+console.log (calculateTime (10000));
+console.log (calculateTime (100000));
+console.log (calculateTime (1000000));
+console.log (calculateTime (10000000));
+console.log (calculateTime (100000000));
+console.log (calculateTime (1000000000));
