@@ -1,0 +1,41 @@
+.main-grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.left-grid-container
+{
+    background-color: rgb(255, 104, 104);
+    border: 2px solid black;
+}
+
+.heading-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    background-color: rgb(115, 115, 255);
+    border: 2px solid black;
+}
+
+.centering-div
+{
+    display: flex;
+    align-items: center;
+}
+
+.bold-text
+{
+    font-weight: 600;
+    font-size: 20px;
+}

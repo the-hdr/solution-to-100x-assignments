@@ -1,71 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout</title>
-    <style>
-        .container {
-            width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 10px;
-        }
-
-        .left {
-            background-color: red;
-        }
-
-        .right {
-            background-color: blue;
-        }
-        .vertical-center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-        .horizontal-center {
-            margin: 0 auto;
-        }
-        .grid1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    </style>
+    <title> assignment </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="left">
-            <div>
-                <div class="horizontal-center">
-                    <h1>Left</h1>
-                </div>
-                <div>
-                    <h3>
-                    text text text text text text text text text text text text text
-                    </h3>
-                </div>
-            </div>
+    <div class="main-grid-container">
+
+        <!-- left grid container: -->
+        <div class="left-grid-container">
+            <div class="heading-container"> <h1> Secrets to success </h1> </div>
+            <div class="contents"> Jumping from failure to failure with undiminished enthusiasm is the big secret to success. </div>
         </div>
-        <div class="right">
-            <div class="grid1">
-                <h2>Col 1</h2>
-                <h2>Col 2</h2>
-                <h2>Col 3</h2>
-                <h2>Col 1</h2>
-                <h2>Col 2</h2>
-                <h2>Col 3</h2>
-                <h2>Col 1</h2>
-                <h2>Col 2</h2>
-                <h2>Col 3</h2>
-            </div>
+
+        <!-- right grid container: -->
+        <div class="right-grid-container">
+            <div class="bold-text centering-div"> <div class="contents row-1 col-1"> Success </div> </div>
+            <div class="bold-text centering-div"> <div class="contents row-1 col-2"> is </div> </div>
+            <div class="bold-text centering-div"> <div class="contents row-1 col-3"> not </div> </div>
+
+            <div class="bold-text centering-div"> <div class="contents row-2 col-1"> final </div> </div>
+            <div class="bold-text centering-div"> <div class="contents row-2 col-2"> , </div> </div>
+            <div class="bold-text centering-div"> <div class="contents row-2 col-3"> failure </div> </div>
+
+            <div class="bold-text centering-div"> <div class="contents row-3 col-1"> is </div> </div>
+            <div class="bold-text centering-div"> <div class="contents row-3 col-2"> not </div> </div>
+            <div class="bold-text centering-div"> <div class="contents row-3 col-3"> fatal. </div> </div>
         </div>
     </div>
 </body>
-
 </html>
