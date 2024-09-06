@@ -1,5 +1,5 @@
 /*
-Write a function `isAnagram` which takes 2 parameters and returns true if one of them is the anagram of the other.
+Write a function `isAnagram` which takes 2 parameters and returns true if one of them is the anagram of the other, otherwise return false.
 What's an Anagram?
 - A string 's' is said to be an anagram of another string 't' if it is possible to rearrange the individual characters of 's' to form 't'. 
 */
