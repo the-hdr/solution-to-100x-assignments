@@ -3,7 +3,7 @@ const goBackPreviousLineString = '\x1b[F';
 
 let currentTime = 1;
 
-function printCurrentTime ()
+function printCurrentTime()
 {
     console.log (currentTime);
     ++currentTime;
