@@ -41,6 +41,11 @@ body, html {
     margin-bottom: 8px;
 }
 
+.option-container
+{
+    display: flex;
+}
+
 .option input[type="radio"] {
     margin-right: 10px;
 }
