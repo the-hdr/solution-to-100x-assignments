@@ -26,8 +26,20 @@ function displayQuestion()
 {
     if (currentQuestionNumber >= totalNumberOfQuestions)
     {
+        let verdict = "";
+        if (quizData.length == currentScore)
+        {
+            verdict = "YOU ARE A GENIUS (IQ: 200+)!!!!";
+        }
+        else
+        {
+            verdict = "YOU ARE AN IDIOT (IQ: < 70)!!!!!";
+        }
+
         const scoreString = 'Score: ' + currentScore.toString() + '/' + totalNumberOfQuestions.toString();
-        alert (scoreString);
+        const verdictString = "\nVERDICT: " + verdict;
+        
+        alert (scoreString + verdictString);
     }
 
     const questionDiv = document.querySelector('.question');
