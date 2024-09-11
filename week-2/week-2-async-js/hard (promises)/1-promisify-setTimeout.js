@@ -10,15 +10,15 @@ function wait(n)
     {
         setTimeout(() =>
         {
-            resolve(`Resolved after ${n} seconds`);
+            resolve();
         },
         n * second);
     });
 }
 
-wait(3).then((message) =>
-{
-    console.log(message);
-});
+// wait(n).then((message) =>
+// {
+//     console.log(message);
+// });
 
 module.exports = wait;
