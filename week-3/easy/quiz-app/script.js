@@ -1,9 +1,33 @@
-import { quizData } from './quizData.js'; 
+import { quizData } from './data.js';
 
 let currentScore = 0;
+let currentQuestionNumber = 0;
 
-const totalQuizItems = quizData.length;
-for (let questionNumber = 0; questionNumber < totalQuizItems; ++i)
+let currentCorrectOption = '?';
+let currentSelectedOption = '?';
+
+const totalQuestions = quizData.length;
+
+function updateScore()
 {
-    
+    if (currentCorrectOption == currentSelectedOption)
+    {
+        ++score;
+    }
+
+    displayQuestion (currentQuestionNumber);
 }
+
+function displayQuestion ()
+{
+    if (currentQuestionNumber >= totalQuestions)
+    {
+        return;
+    }
+
+    const questionDiv = document.querySelector('.question');
+
+    questionDiv.innerText = quizData[currentQuestionNumber].question;
+}
+
+displayQuestion ();
