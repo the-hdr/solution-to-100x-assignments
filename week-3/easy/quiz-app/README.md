@@ -1,4 +1,3 @@
-
 # Quiz-App
 
 Your task is to design and implement a Quiz application that meets the following requirements:
