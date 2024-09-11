@@ -31,5 +31,30 @@ export const quizData = [{
     "d": "none of the above",
     "correct": "b",
 },
+{
+    "question": "Who invented the World Wide Web?",
+    "a": "Timothy Berners Lee",
+    "b": "Mohd Abbas Haidar",
+    "c": "John von Neumann",
+    "d": "all of the above",
+    "correct": "b",
+},
+{
+    "question": "Who is the greatest programmer of all time?",
+    "a": "Linus Torvalds",
+    "b": "John Carmack",
+    "c": "Mohd Abbas Haidar",
+    "d": "Chris Sawyer",
+    "correct": "c",
+},
+{
+    "question": "What's the best thing to do out of the given options?",
+    "a": "sleep",
+    "b": "talk to your best friend",
+    "c": "eat",
+    "d": "look at the blessed face of The Great Mohd Abbas Haidar",
+    "correct": "d",
+},
+
 // you can add more quiz here
 ]
