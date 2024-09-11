@@ -14,27 +14,32 @@
                 <div class="question">
                     --no data--
                 </div>
+
                 <div class="options">
-                    <label class="option">
-                        <input type="radio" name="option" value="--no data--">
-                        --no data--
-                    </label>
-                    <label class="option">
-                        <input type="radio" name="option" value="--no data--">
-                        --no data--
-                    </label>
-                    <label class="option">
-                        <input type="radio" name="option" value="--no data--">
-                        --no data--
-                    </label>
-                    <label class="option">
-                        <input type="radio" name="option" value="--no data--">
-                        --no data--
-                    </label>
+                    <div class="option-container">
+                        <input id="a" class="actual-option" type="radio" name="option" value="--no data--">
+                        <label class="option">--no data--</label>
+                    </div>
+                
+                    <div class="option-container">
+                        <input id="b" class="actual-option" type="radio" name="option" value="--no data--">
+                        <label class="option">--no data--</label>
+                    </div>
+                
+                    <div class="option-container">
+                        <input id="c" class="actual-option" type="radio" name="option" value="--no data--">
+                        <label class="option">--no data--</label>
+                    </div>
+                
+                    <div class="option-container">
+                        <input id="d" class="actual-option" type="radio" name="option" value="--no data--">
+                        <label class="option">--no data--</label>
+                    </div>
                 </div>
+                
             </div>
             <div class="submit">
-                <button type="button" onclick="updateScore()"> Submit </button>
+                <button class="submit-button" type="button"> Submit </button>
             </div>
         </div>
     </div>
