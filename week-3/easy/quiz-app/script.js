@@ -16,6 +16,11 @@ function updateScore()
     {
         ++currentScore;
     }
+
+    document.getElementById('a').checked = false;
+    document.getElementById('b').checked = false;
+    document.getElementById('c').checked = false;
+    document.getElementById('d').checked = false;
     
     ++currentQuestionNumber;
     console.log (currentQuestionNumber);
